@@ -8,5 +8,5 @@ function thousands_separators(num) {
   st=st.split('').reverse().join('').replace(/(\d{3})/g,'$1,').replace(/\,$/,'').split('').reverse().join('');
   return (st+num.substring(y));
 } 
-
+module.exports = thousands_separators;
 
