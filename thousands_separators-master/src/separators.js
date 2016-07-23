@@ -1,4 +1,6 @@
 
+aaaaaaaaaaaaaaaaaaaaaaaaa
+
 function thousands_separators(num) {
   num+='';
   var y=num.indexOf('.'); 
